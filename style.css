@@ -1,15 +1,7 @@
-.form-control:focus {
-  box-shadow: none;
+.body{
+    background-color: grey;
 }
 
-.form-control-underlined {
-  border-width: 0;
-  border-bottom-width: 1px;
-  border-radius: 0;
-  padding-left: 0;
-}
-
-#input-group{
-
-    border: black solid;
+.jumbotron{
+    background: black;
 }
