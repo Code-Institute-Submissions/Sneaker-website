@@ -7,4 +7,13 @@ body{
     background-image:url(../image/banner.png);
     background-size:cover;
     background-position: center bottom;
+
+}
+
+.display-4{
+    font-family: "Lacquer";
+}
+
+.lead{
+    font-family: "Dosis";
 }
