@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(220,220,220);
+}
+
+
+#top-banner{
+    background-image:url(../image/banneryeezy.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-position-y: 75%;
+    color:purple;
+    
+    
+
+
+}
+
+.h1{
+    font-family: 'Lora', serif;
+    
+   
+
+}
+
+.lead{
+    font-family: 'Lora', serif;
+
+    
+}
+
+h4{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: "Ubuntu";
+    
+}
+
+.card{
+    padding:10px;
+    margin:10px;
+
+
+}
+
+.page-footer{
+    background-color:#858679;
+    color:black;
+}
+
+a{
+    color:black;
+}
+
+.form-group{
+    width:80%;
+}
+
+#last-footer{
+    background-color:#797a6f;
+    margin-bottom:20px;
+}
+
+.alert{
+    text-align: space-between;
+}
