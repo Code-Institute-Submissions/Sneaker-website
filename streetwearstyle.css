@@ -4,12 +4,18 @@ body{
 
 
 #top-banner{
-    background-image:url(../image/Nikepic/nikebanner.jpg);
+    background-image:url(../image/streetwearbanner.png);
     background-size:cover;
     background-position: center center;
-    background-position-y: 60%;
-    color:red;
+    background-position-y:55%;
     
+}
+
+#streetweartitle{
+    background-color:rgb(220,220,220);
+    padding-top:0.05px;
+    margin-left:2px;
+
 }
 
 .h1{
