@@ -3,15 +3,6 @@ body{
 }
 
 
-#top-banner{
-    background-image:url(../image/FAQ.jpg);
-    background-size:cover;
-    background-position: center center;
-    background-position-y: 48%;
-}
-
-
-}
 .h1{
     font-family: 'Lora', serif;
     
@@ -32,17 +23,6 @@ h4{
     
 }
 
-#faqtitle{
-    padding-left:20px;
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-right:0.05px;
-}
-
-#faqcollapse{
-    padding:20px;
-}
-
 
 .page-footer{
     background-color:#858679;
@@ -53,9 +33,6 @@ a{
     color:black;
 }
 
-.form-group{
-    width:80%;
-}
 
 #last-footer{
     background-color:#797a6f;
@@ -63,4 +40,20 @@ a{
 }
 
 
+#contactform{
+    padding:10px;
+}
 
+.form-group{
+    width:80%;
+}
+
+#send{
+    width: 100px;
+    height: 60px;
+}
+
+
+#contactus{
+    padding-top:20px;
+}
