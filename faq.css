@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(220,220,220);
+}
+
+
+#top-banner{
+    background-image:url(../image/FAQ.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-position-y: 48%;
+}
+
+
+}
+.h1{
+    font-family: 'Lora', serif;
+    
+   
+
+}
+
+.lead{
+    font-family: 'Lora', serif;
+
+    
+}
+
+h4{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: "Ubuntu";
+    
+}
+
+#faqtitle{
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:0.05px;
+}
+
+#faqcollapse{
+    padding:20px;
+}
+
+
+.page-footer{
+    background-color:#858679;
+    color:black;
+}
+
+a{
+    color:black;
+}
+
+.form-group{
+    width:80%;
+}
+
+#last-footer{
+    background-color:#797a6f;
+    margin-bottom:20px;
+}
+
+
