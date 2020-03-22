@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="CSS/cart.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+	<title>SGW</title>
+</head>
+<header>
+	<!--Navbar start-->
+	<div class="col-100">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="index.html">
+				<img src="image/sgwlogo.jpg" width = "55" alt="" class="d-inline-block align-middle mr-2"/>
+        </a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html"><b>HOME</b> <span class="sr-only">(current)</span></a>
+						</li>
+
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<b>SNEAKER</b>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="yeezy.html">Yeezy</a>
+								<a class="dropdown-item" href="nike.html">Nike</a>
+							</div>
+
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="streetwear.html"><b>STREETWEAR</b></a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="faq.html"><b>FAQ</b></a>
+						</li>
+					</ul>
+
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button type="submit">Search</button>
+					</form>
+
+					<div id="cart">
+						<a href="cart.html"><i class="fas fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+					</div>
+
+				</div>
+		</nav>
+	</div>
+	<!--Navbar End-->
+
+</header>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<table id="cartitem" class="table table-hover table-condensed">
+				<thead>
+					<tr>
+						<th style="width:50%">Product</th>
+						<th style="width:10%">Price</th>
+						<th style="width:8%">Quantity</th>
+						<th style="width:22%" class="text-center">Subtotal</th>
+						<th style="width:10%"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td data-th="Product">
+							<div class="row">
+								<div class="col-sm-2 hidden-xs">
+									<img src="image/cartpicture.png"  class="img-responsive"/></div>
+									<div class="col-sm-10">
+										<h4 class="nomargin">Example Product 1</h4>
+										<p>In-Stock</p>
+									</div>
+								</div>
+						</td>
+						<td data-th="Price">$199</td>
+						<td data-th="Quantity">
+							<input type="number" class="form-control text-center" value="1">
+							</td>
+						<td data-th="Subtotal" class="text-center">$199</td>
+						<td class="actions" data-th="">
+							<button class="btn btn-danger btn-sm"><i class="far fa-trash-alt"></i></button>
+						</td>
+					</tr>
+				</tbody>
+				<tfoot>
+
+					<tr>
+						<td><a href="#" class="btn btn-info"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+						<td colspan="2" class="hidden-xs"></td>
+						<td class="hidden-xs text-center"><strong>Total $199</strong></td>
+						<td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+
+
+
+	<!--Start Of Footer-->
+	<footer>
+		<div class="container">
+			<div class="page-footer font-small black pt-4 mt-5">
+
+				<!-- Footer Links -->
+				<div class="container-fluid text-center text-md-left">
+
+					<!-- Grid row -->
+					<div class="row">
+
+						<!-- Grid column -->
+						<div class="col-md-6 mt-md-0 mt-3">
+
+							<!-- Content -->
+							<h5 class="text-uppercase"><b>Subscribe to us for latest update:</b></h5>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" placeholder="Enter email:">
+                </div>
+
+							</div>
+
+
+							<!-- Grid column -->
+
+							<div class="col-md-6 mb-md-0 mb-6">
+								<h5><b>Follow us:</b></h5>
+								<div class="row">
+									<div class="col">
+										<a
+											href="https://www.facebook.com/Sneak-Gateway-Shop-110418183924731/"><i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+										<a
+											href="https://www.instagram.com/hiddensneak/"><i class="fab fa-instagram fa-3x" aria-hidden="true"></i></a>
+									</div>
+								</div>
+
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="container">
+				<div class="container-fluid" id="last-footer">
+					<div class="row">
+						<div class="col-md text-center">
+							<a href="index.html">Home</a>
+						</div>
+						<div class="col-md text-center">
+							<a href="contact.html">Contact us</a>
+						</div>
+						<div class="col-md text-center">
+							<a href="faq.html">FAQ</a>
+						</div>
+
+
+					</div>
+				</div>
+
+
+
+			</div>
+
+
+
+	</footer>
+
+
+
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
