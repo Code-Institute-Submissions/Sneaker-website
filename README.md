@@ -37,4 +37,84 @@ For the Yeezy, Nike and Streetwear page it will feature all the product that the
 For now, the add to cart button that link to the cart page is only to show the flow of it. In the future, the add to cart feature will be improve on where they can be added to the cart logo with a drop-down box.
 The cart page for now is a dummy page to show case what the cart page will look like. The whole checkout process will be implemented in the future.
 
+## Wireframes ##
+Wireframes was created to help me to visualise and design a layout for my website. The wireframe can 
+be view via this [link].
+
+## User Stories ##
+These are the user stories that i was thinking to achieve while building the website:
+1. To create a static ecommerce website
+2. To connect with sneaker and streetwear lover.
+3. To create the website so more people can be reach and gain more followers for social media.
+4. To use the skill I learn from HTML5, CSS, Bootstrap and other tools to make a website.
+
+## Feature ##
+* The link in the navigation bar can bring u the different pages.
+* The carousel is to show case the limited sneaker.
+* Button are added to link to different product page or cart page.
+* Facebook and Instagram logo will link to social media to display the product the shop have and for social media contacting.
+* A collapse box was added to FAQ to have a open and close effect.
+* Alert was added below the banner to notify on the current latest item to pre-order.
+* A form was added to contact us for customer to ask more question or contact for pre-order
+* The subscribe form was added for customer for the updated news on sneaker and the latest arrival.
+
+Future features
+* Add Django add to cart feature for a full Ecommerce website.
+* Add a search feature so easier to search for the product they want.
+* Add an ongoing selling marketplace where seller can list their price and buyer can make their offer.
+
+## Technologies Used ##
+Below are a list of framework, programming languages and tools used for the website:
+* HTML5
+* CSS
+* Bootstrap 4
+* Gitpod  
+    * Used as the IDE to write codes for the website
+* Google Fonts 
+    * Used Lacquer,Dosis,Ubuntu,Lora,Indie Flower
+* Font Awesome  
+    * Used for social media and other icon
+* Github
+* Balsamiq
+    * use to create wireframe
+
+
+
+
+
+### Testing ###
+The website was tested on different web browser and different mobile device.
+Device and browsers tested on are:
+* Ipad  
+    * Safari
+* MacBook Air – 
+    * Google Chrome
+    * Safari
+* Window laptop
+    * google chrome
+    * Microsoft Edge
+* Iphone
+    * Safari
+* Samsung S10 
+    * Google Chrome 
+    * Samsung Web Browser
+
+### Deployment ###
+GitHub host the repository for all commits
+Click on the link to find the deployed website which use GitHub pages. The page will be updated upon new commit that are push from the master branch.
+I deploy the website by going to my repository, click on setting at the top and scroll down to the heading GitHub Pages. Under the source, I choose the master branch and deploy it.
+
+## Credit ##
+### Codes ###
+Bootstrap https://getbootstrap.com/
+
+### Images ###
+Banner images
+1. https://row.baubax.com/pages/faq-1
+2. https://stockx.com/
+3. https://images.app.goo.gl/UJm2P4ozjFiHkgEr5
+
+Product images
+1. https://www.goat.com/
+
 
