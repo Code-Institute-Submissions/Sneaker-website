@@ -11,9 +11,12 @@ body{
     color:purple;
     
     
-
-
 }
+
+#cart{
+    margin:10px;
+}
+
 
 .h1{
     font-family: 'Lora', serif;
