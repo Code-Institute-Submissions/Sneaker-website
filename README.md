@@ -3,7 +3,7 @@
 ### Interactive Front-end web Development Project 1 ###
 By: Melville Ng
 
-##Demo
+## Demo ##
 Website site link can be found [here](https://melvilleng.github.io/Sneaker-website/)
 
 ## Aim ##
@@ -98,6 +98,12 @@ Device and browsers tested on are:
 * Samsung S10 
     * Google Chrome 
     * Samsung Web Browser
+
+### Bugs ###
+I have a issue with all the banner picture not showing up when i deploy on git pages. So to solve this issue i went to gitpod and look through
+my code and found out the issue was due to the naming of the picture name file. Once i correct the format and redeploy the site. The banner picture
+all start showing up on the deploy page. 
+
 
 ### Deployment ###
 GitHub host the repository for all commits
